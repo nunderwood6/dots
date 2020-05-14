@@ -46,8 +46,6 @@ function loadData(){
         var rasterBox = rasterAreaJSON;
         var countries = topojson.feature(countriesTOPO, countriesTOPO.objects.countries).features;
 
-        console.log(municipios);
-        console.log(groupsData);
         positionMap(municipios,focusBox,rasterBox,countries);
 
     });
@@ -134,8 +132,6 @@ function positionMap(municipios,focusBox,rasterBox,countries){
                                         console.log(d);
                                         return pathGuate.centroid(d)[1]/h*100+"%";
                                     });
-
-    //text drawing flows from guate
 
 
 
