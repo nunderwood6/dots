@@ -20,7 +20,6 @@ div.opener {
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
-	z-index: 5;
 
 }
 
@@ -52,7 +51,6 @@ div.opener h4 {
 div.introText, div.closingText {
 	position: relative;
 	margin: 0;
-	z-index: 5;
 	background-color: #fafafc;
 	padding: 50px 0;
 
@@ -63,7 +61,6 @@ p {
 	padding: 0 5px;
 	margin: 0 auto;
 	max-width: 650px;
-	z-index: 5;
 	position: relative;
 
 }
@@ -123,4 +120,69 @@ div.map p {
 
 }
 
+div.closingText p {
+	background-color: #ecedd3;
+}
+
+img.temp {
+	width: 100%;
+	height: auto;
+	max-width: 800px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+h4.toggle {
+	font-family: proxima-nova, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+h4.toggle .active {
+	font-weight: bold;
+}
+
+.highlight {
+  stroke-opacity: 1;
+}
+
+.dehighlight {
+  stroke-opacity: 0.05;
+}
+
+div.graphic-container {
+	width: 100%;
+	height: 95%;
+	max-width: 700px;
+	margin: 0 auto;
+	position: relative;
+}
+
+div.graphic-container svg {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.states,.municipios {
+	fill: #e1ecf5;
+	stroke: #fff;
+	stroke-width: 0.75px;
+}
+
+text {
+font-family: proxima-nova, sans-serif;
+
+}
+
+h3 {
+	font-family: proxima-nova, sans-serif;
+	text-decoration: underline;
+	max-width: 650px;
+	margin: 25px auto;
+	text-align: center;
+}
 

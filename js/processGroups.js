@@ -82,8 +82,7 @@ function positionMap(municipios,focusBox,rasterBox,countries){
               .append("svg")
               .attr("viewBox", `0 0 ${w} ${h}`)
               .attr("overflow", "visible")
-              .style("position","relative")
-              .style("z-index", 1)
+              .style("position","relative");
 
 
     //calculate raster extent percentages
